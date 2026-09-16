@@ -1,42 +1,84 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Szia Cigo</title>
-   <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Strange Space</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
 </head>
-</title>
-<h1 style="text-align:center; color:rgb(243, 241, 235); font:Poppins, sans-serif;"> 
+<body>
+  <nav class="navbar">
+    <a class="site-title" href="#home">STRANGE SPACE</a>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="cigany.html">Information</a>
+      <a href="#facts">Fun Facts</a>
+      <a href="#credits">Credits</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>
+        Van valami,<br>
+        Benne ami,<br>
+        Egyszeruen...
+      </h1>
+
       
-      Van valami,
-      Benne ami,
-      Egyszeruen...
-  
-</h1>
-<body style="background-color: rgb(255, 153, 0);">
-   
-   <img src="C:\Users\elev\Pictures\Camera Roll\WIN_20260910_08_41_23_Pro.jpg" alt="kenesmalaj" style="width:1900px;height:480px;">
-   <br>
-   <p style= color:ghostwhite; font:Poppins, sans-serif;">Kattints a képre, ha szeretnél látni egy szép világűrről szóló videót!!
-   </p>
-      <a href="https://youtu.be/dQw4w9WgXcQ?si=Z7dnYerzyWzA-5UR">  
-      <br>
+      <img class="main-image" src="img/67.jpg" alt="Mysterious scene">
 
-   <img src="D:\Gergo\vilagur\img\67.jpg"alt="kenesmalaj" style="width:600px;height:480px;">
-   <br>
-   </a>
-</br>
-   <h2>Fogadd el a sütiket</h2>
-<br>
-<button class="button">
-  <div class="blob1"></div>
-  <div class="blob2"></div>
-  <div class="inner">Sütik</div>
-</button>
-</br>
+      <p class="intro-text">
+        Click the link below if you would like to see a beautiful video about space.
+      </p>
 
-     </body>
+      <a
+        class="space-link"
+        href="https://youtu.be/dQw4w9WgXcQ?si=Z7dnYerzyWzA-5UR"
+        target="_blank"
+      >
+        <img class="space-image" src="images/space.jpg" alt="Outer space">
+      </a>
+    </section>
 
+    <section id="information" class="content-section">
+      <h2>Information</h2>
+      <p>
+        Space is an enormous, mysterious place filled with stars, planets,
+        galaxies, and things we have not discovered yet.
+      </p>
+    </section>
+
+    <section id="facts" class="content-section">
+      <h2>Fun Facts</h2>
+      <p>
+        Sound cannot travel through space because there is no air for sound
+        waves to move through.
+      </p>
+    </section>
+
+    <section id="credits" class="content-section">
+      <h2>Credits</h2>
+      <p>Created by Gergő.</p>
+    </section>
+
+    <section class="cookie-section">
+      <h2>Accept Cookies</h2>
+
+      <button class="button">
+        <div class="blob1"></div>
+        <div class="inner">Accept Cookies</div>
+      </button>
+    </section>
+  </main>
+</body>
 </html>
