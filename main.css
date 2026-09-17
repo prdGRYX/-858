@@ -147,8 +147,8 @@ h2 {
   line-height: 1.6;
 }
 
-/* Cookie button */
-.button {
+
+button {
   position: relative;
   padding: 2px;
   overflow: hidden;
@@ -177,10 +177,29 @@ h2 {
   border-radius: 14px;
 }
 
-.inner {
+.button, .sutik {
   position: relative;
   padding: 14px 28px;
   color: white;
   background: linear-gradient(135deg, #3f0966, #160022);
-  border-radius: 12px;
+  border-radius: 50%;
+}
+
+.sipos {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 18px;
+  box-shadow: 0 0 25px rgba(218, 142, 255, 0.6);
+}
+
+.sutik{
+  
+  
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 18px;
+  box-shadow: 0 0 25px rgba(218, 142, 255, 0.6);
 }
